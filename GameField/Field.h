@@ -1,6 +1,6 @@
 #pragma once
-#define width 25 //change the field
-#define height 25 //change the field
+#define width 100 //change the field
+#define height 100 //change the field
 char field[width][height];
 enum side {
 	up,

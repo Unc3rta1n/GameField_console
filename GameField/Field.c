@@ -28,12 +28,12 @@ void printfield(char field[width][height])
 void random_path(int choose_2walls)
 {
 	if (choose_2walls == 0) {
-		startpos = rand() % 6 + 1;
+		startpos = rand() % width;
 		field[width - 1][startpos] = 'g';
 	}
 	else
 	{
-		startpos = rand() % 6 + 1;
+		startpos = rand() % height;
 		field[startpos][height - 1] = 'g';
 	}
 	if (choose_2walls == 0)
